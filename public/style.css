@@ -1,0 +1,105 @@
+*{
+    font-family:arial;
+}
+
+h1, .logo{
+  font-weight: 900;
+  font-size: 40px;
+}
+
+p{
+    font-size: 1.25em;
+}
+
+body{
+    background-color:#e8e4e4df;
+    margin: 0px;
+    background-image: url("double-bubble-outline.webp");
+    background-repeat: repeat;
+}
+
+.logo{
+    padding: 20px;
+}
+
+span1{
+    color:#8c0404;
+}
+
+span2{
+    color:limegreen;
+}
+
+.top, .center, .right{
+    flex-direction: row;
+    display:flex;
+    justify-content:space-between;
+}
+
+.top{
+    align-items: center;
+    height: 80px;
+    background-color:#FFFFFF;
+}
+
+.center, .right{
+    margin:20px;
+}
+
+.center{
+    height: 50px;
+}
+
+.left{
+    width: 25vw;
+    min-width: 185px;
+}
+
+a{
+    margin: 0px 20px 0px 20px;
+    color:#333;
+    text-decoration-line: none;
+}
+
+.card1, .card2, .card3{
+    width: 24vw;
+    height: 50vh;
+    margin: .5vw;
+    background-size: 24vw 50vh;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.card1{
+    background-image: url("apple-breakfast-quinoa-7.jpg");
+}
+
+.card2{
+    background-image: url("pasta-salad-recipe-for-lunch.jpg");
+}
+
+.card3{
+    background-image: url("Screenshot_208.jpg");
+}
+
+green, white{
+    padding: .5em;
+}
+
+green{
+    background-color: limegreen;
+    width: 7em;
+}
+
+white{
+    background-color: #FFFFFF;
+}
+
+.word{
+    position: absolute;
+    bottom: 0em;
+    right: 0;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+}
